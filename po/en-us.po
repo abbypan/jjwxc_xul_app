@@ -42,3 +42,31 @@ msgstr ""
 #: lib/Jjwxc/View/Overlay.pm:57
 msgid "writer"
 msgstr ""
+
+#: lib/Jjwxc/View/Overlay.pm:43
+msgid "blur"
+msgstr ""
+
+#: lib/Jjwxc/View/Overlay.pm:50
+msgid "book"
+msgstr ""
+
+#: lib/Jjwxc/View/Overlay.pm:31
+msgid "jjwxc"
+msgstr ""
+
+#: lib/Jjwxc/View/Overlay.pm:64
+msgid "lead role"
+msgstr ""
+
+#: lib/Jjwxc/View/Overlay.pm:78
+msgid "other"
+msgstr ""
+
+#: lib/Jjwxc/View/Overlay.pm:71
+msgid "support role"
+msgstr ""
+
+#: lib/Jjwxc/View/Overlay.pm:57
+msgid "writer"
+msgstr ""

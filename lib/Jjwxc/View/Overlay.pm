@@ -26,7 +26,7 @@ template main => sub {
             } 
             menu {
                 attr {
-                    image       => "chrome://jjwxc/content/ljj-logo-small.png",
+                    image       => "chrome://jjwxc/content/jjwxc16.png",
                     id          => "right-click-Jjwxc",
                     label       => _('jjwxc'),
                     class       => "menu-iconic",
@@ -41,42 +41,42 @@ template main => sub {
                         attr {
                             id        => "google-query",
                             label     => _('blur'),
-                            oncommand => 'ljj_query("cse");',
+                            oncommand => 'query_ljj("cse");',
                         }
                     }
                     menuitem {
                         attr {
                             id        => "ljj-query-zuopin",
                             label     => _('book'),
-                            oncommand => 'ljj_query("book");',
+                            oncommand => 'query_ljj("book");',
                         }
                     }
                     menuitem {
                         attr {
                             id        => "ljj-query-zuozhe",
                             label     => _('writer'),
-                            oncommand => 'ljj_query("writer")',
+                            oncommand => 'query_ljj("writer")',
                         }
                     }
                     menuitem {
                         attr {
                             id        => "ljj-query-zhujue",
                             label     => _('lead role'),
-                            oncommand => 'ljj_query("lead role")',
+                            oncommand => 'query_ljj("lead")',
                         }
                     }
                     menuitem {
                         attr {
                             id        => "ljj-query-peijue",
                             label     => _('support role'),
-                            oncommand => 'ljj_query("support role")',
+                            oncommand => 'query_ljj("support")',
                         }
                     }
                     menuitem {
                         attr {
                             id        => "ljj-query-qita",
                             label     => _("other"),
-                            oncommand => 'ljj_query("other")',
+                            oncommand => 'query_ljj("other")',
                         }
                     }
                 }

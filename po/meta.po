@@ -41,3 +41,31 @@ msgstr "&QQQ_support_32_role;"
 #: lib/Jjwxc/View/Overlay.pm:57
 msgid "writer"
 msgstr "&QQQ_writer;"
+
+#: lib/Jjwxc/View/Overlay.pm:43
+msgid "blur"
+msgstr "&QQQ_blur;"
+
+#: lib/Jjwxc/View/Overlay.pm:50
+msgid "book"
+msgstr "&QQQ_book;"
+
+#: lib/Jjwxc/View/Overlay.pm:31
+msgid "jjwxc"
+msgstr "&QQQ_jjwxc;"
+
+#: lib/Jjwxc/View/Overlay.pm:64
+msgid "lead role"
+msgstr "&QQQ_lead_32_role;"
+
+#: lib/Jjwxc/View/Overlay.pm:78
+msgid "other"
+msgstr "&QQQ_other;"
+
+#: lib/Jjwxc/View/Overlay.pm:71
+msgid "support role"
+msgstr "&QQQ_support_32_role;"
+
+#: lib/Jjwxc/View/Overlay.pm:57
+msgid "writer"
+msgstr "&QQQ_writer;"
