@@ -61,14 +61,14 @@ template main => sub {
                     menuitem {
                         attr {
                             id        => "ljj-query-zhujue",
-                            label     => _('lead role'),
+                            label     => _('lead'),
                             oncommand => 'query_ljj("lead")',
                         }
                     }
                     menuitem {
                         attr {
                             id        => "ljj-query-peijue",
-                            label     => _('support role'),
+                            label     => _('support'),
                             oncommand => 'query_ljj("support")',
                         }
                     }

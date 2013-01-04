@@ -37,16 +37,30 @@ function query_bubble_cse(keyword){
     browser.loadOneTab(url, null, null, null, false, true); 
 };
 
-function query_ljj_form(kw, type) {
-    var t = JJWXC_QUERY_TYPE[type];
+function query_ljj_form(keyword, type) {
     var doc = window.content.document;
     var form=doc.createElement("form");  
     form.target='_blank';
     form.action= JJWXC_QUERY_URL;
     form.setAttribute('accept-charset', 'gbk');
-    form.innerHTML='<input id="query_ljj_kw" type="text" value="' + 
-        kw + '" name="kw"><input id="query_ljj_t" type="text" value="'+ 
-        t +'" name="t"><input type="submit" value="查询" name="submit">';
+    
+    var kw = doc.createElement("input");
+    kw.type="text";
+    kw.name="kw";
+    kw.value=keyword;
+    form.appendChild(kw);
+
+    var t = doc.createElement("input");
+    t.type="text";
+    t.name="t";
+    t.value=JJWXC_QUERY_TYPE[type];
+    form.appendChild(t);
+
+    var s = doc.createElement("input");
+    s.type="submit";
+    s.value='ok';
+    form.appendChild(s);
+
     doc.body.appendChild(form);  
 
     form.submit();

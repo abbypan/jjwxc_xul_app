@@ -21,8 +21,7 @@ use XUL::App schema {
         在当前网页选中关键字，通过右键菜单选择查询类型，自动在新标签页载入查询结果。
         关键字的模糊查询不仅限于绿晋江，采用 bubble7733 的google自定义搜索引擎。",
         targets {
-        Firefox => [ '2.0' => '17.0.*' ],
-        Mozilla => [ '1.5' => '1.8' ],
+            Firefox => [ '2.0' => '20.*' ],
         },
         creator is 'Abby Pan',
         developers are   ['abbypan'],
@@ -32,6 +31,7 @@ use XUL::App schema {
         iconURL is 'chrome://jjwxc/content/jjwxc32.png',
         updateURL is '',    # This should not set for AMO extensions.
         aboutURL is '';
+        type are [ qw/novel search/ ], 
 };
 
 1;

@@ -28,7 +28,7 @@ msgid "jjwxc"
 msgstr "绿晋江"
 
 #: lib/Jjwxc/View/Overlay.pm:64
-msgid "lead role"
+msgid "lead"
 msgstr "主角"
 
 #: lib/Jjwxc/View/Overlay.pm:78
@@ -36,37 +36,9 @@ msgid "other"
 msgstr "其他"
 
 #: lib/Jjwxc/View/Overlay.pm:71
-msgid "support role"
+msgid "support"
 msgstr "配角"
 
 #: lib/Jjwxc/View/Overlay.pm:57
 msgid "writer"
 msgstr "作者"
-
-#: lib/Jjwxc/View/Overlay.pm:43
-msgid "blur"
-msgstr ""
-
-#: lib/Jjwxc/View/Overlay.pm:50
-msgid "book"
-msgstr ""
-
-#: lib/Jjwxc/View/Overlay.pm:31
-msgid "jjwxc"
-msgstr ""
-
-#: lib/Jjwxc/View/Overlay.pm:64
-msgid "lead role"
-msgstr ""
-
-#: lib/Jjwxc/View/Overlay.pm:78
-msgid "other"
-msgstr ""
-
-#: lib/Jjwxc/View/Overlay.pm:71
-msgid "support role"
-msgstr ""
-
-#: lib/Jjwxc/View/Overlay.pm:57
-msgid "writer"
-msgstr ""
