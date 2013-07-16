@@ -1,11 +1,13 @@
 jjwxc
 =====
 
-firefox扩展：绿晋江http://www.jjwxc.net 网站小说的右键查询菜单
+功能：绿晋江http://www.jjwxc.net 网站小说的右键查询菜单
 
 安装：https://addons.mozilla.org/zh-CN/firefox/addon/jjwxc/
 
-功能：右键出现Jjwxc选单，可以直接在当前页面进行一键查询(作品，作者，主角，配角，其他关键字)小说。调用haozi的Google自定义搜索引擎"小说drama"实现模糊查询。
+说明：右键出现Jjwxc选单，可以直接在当前页面进行一键查询(作品，作者，主角，配角，其他关键字)小说。
+
+调用haozi的Google自定义搜索引擎"小说drama"实现模糊查询，http://www.google.com/cse/home?cx=002715881505881904928:lxsfdlsvzng
 
 ==========
 2008.12.30
